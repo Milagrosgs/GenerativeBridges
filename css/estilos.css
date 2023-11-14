@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600=Roboto+Mono:wght@100..700&display=swap");
+:root {
+  --bs-body-bg: rgb(146, 147, 171);
+  --bs-primary-bg-subtle:transparent;
+}
+
+.btn-outline-success {
+  --bs-btn-border-color: rgb(3, 101, 0);
+  --bs-btn-hover-bg: rgb(127, 168, 123);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1, h3 {
+  font-family: "Roboto Mono", monospace;
+}
+
+.icon-wink {
+  color: red;
+  font-size: 3rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: rgb(0, 0, 0);
+}
+
+.carousel-caption {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../imagenes/Flecha\ derecha.png);
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../imagenes/Flecha\ izquierda.png);
+}
+
+main,
+footer {
+  width: 100%;
+  background-color: rgb(202, 202, 202);
+}
+
+footer {
+  background-color: black;
+  padding: 40px;
+  text-align: right;
+}
+
+footer a {
+  margin: 0 10px;
+  color: #ffffff;
+}
+
+#apilado {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: auto;
+  }
+}/*# sourceMappingURL=estilos.css.map */
